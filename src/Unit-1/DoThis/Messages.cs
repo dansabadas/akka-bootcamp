@@ -29,7 +29,7 @@
         /// <summary>
         /// Base class for signalling that user input was invalid.
         /// </summary>
-        public class InputError
+        public abstract class InputError
         {
             public InputError(string reason)
             {
